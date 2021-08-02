@@ -37,8 +37,8 @@ jobs:
           arr[5]="GenF Auto Commit"
           arr[6]="GenG Auto Commit"
           arr[7]="GenH Auto Commit"
-          arr[8]="GenI Auto Commit
-          arr[9]="GenJ Auto Commit
+          arr[8]="GenI Auto Commit"
+          arr[9]="GenJ Auto Commit"
 
           rand=$[$RANDOM % ${#arr[@]}]
           
