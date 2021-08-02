@@ -19,7 +19,7 @@ jobs:
          fetch-depth: 0
 
       - name: Set date
-      run: |
+        run: |
         sudo timedatectl set-timezone Asia/Jakarta
         echo ::set-output name=date::$(/bin/date -u "+%y%m%d-%H-%M-%S")
 
