@@ -30,8 +30,8 @@ jobs:
           
       - name: Commit changes
         run: |
-          git config --local user.name "vcyzteen"
-          git config --local user.email "vcyzscape@gmail.com"
+          git config --local user.name "JustANothing"
+          git config --local user.email "juandrafelix@gmail.com"
           git add -A
           
           arr[0]="GenA Auto Commit"
