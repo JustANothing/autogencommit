@@ -1,4 +1,4 @@
-name: Auto commit
+name: autogencommit
 on:
   push:
     branches:
